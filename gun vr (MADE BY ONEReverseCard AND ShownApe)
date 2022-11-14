@@ -17,16 +17,16 @@ _G.knifeMode = false
 --[--Universal--]-- (Settings That Affect Both VR and Non-VR Users)
 _G.leftHand = false
 _G.flinging = true
-_G.toolHolding = true
+_G.toolHolding = false
 _G.bodyTransparency = 0
 _G.hatTransparency = 0
 _G.useAlignments = true
 --Hat CLOVR (The List Of Hats Needed Are In The Raw Script)
 _G.hideCharacter = false --(BUGGY - WILL NOT ALWAYS WORK)
 _G.hideCharacterPosition = {50000000, 0, 50000000}
-_G.hatCLOVR = false
+_G.hatCLOVR = true
 --Loadout
-_G.primaryWeapon = true
+_G.primaryWeapon = false
 _G.secondaryWeapon = false
 _G.dualWieldGuns = false
 _G.dualWieldMelee = false
