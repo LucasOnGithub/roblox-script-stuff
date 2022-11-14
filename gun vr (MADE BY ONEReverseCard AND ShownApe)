@@ -1,0 +1,64 @@
+--ALL CREDITS GO TO THESE GUYS
+--ONEReverseCard#5311
+--ShownApe#0234
+
+--IM POSTING HERE SO I DONT HAVE TO ENTER IN 50 LINES OF CODE LMAO
+
+--actual vr stuff is below here----------------------------------------------------------------------
+
+--Setting descriptions are in the raw script.
+--[[---------Settings---------]]--
+--[--VR Only--]-- (Settings That Only Affect VR Users)
+_G.gunAutoEquip = false
+_G.swordAutoEquip = false
+_G.changeSomeStuff = true --(Crouching is broken when this is true)
+_G.knifeMode = false
+
+--[--Universal--]-- (Settings That Affect Both VR and Non-VR Users)
+_G.leftHand = false
+_G.flinging = true
+_G.toolHolding = true
+_G.bodyTransparency = 0
+_G.hatTransparency = 0
+_G.useAlignments = true
+--Hat CLOVR (The List Of Hats Needed Are In The Raw Script)
+_G.hideCharacter = false --(BUGGY - WILL NOT ALWAYS WORK)
+_G.hideCharacterPosition = {50000000, 0, 50000000}
+_G.hatCLOVR = false
+--Loadout
+_G.primaryWeapon = true
+_G.secondaryWeapon = false
+_G.dualWieldGuns = false
+_G.dualWieldMelee = false
+--Cooldown
+_G.sniperShootCooldown = 0.5
+_G.pistolShootCooldown = 0.06
+--Bullet Stuff
+_G.bulletColor = {255, 255, 255}
+_G.sniperLifetime = 10
+_G.automaticLifetime = 5
+_G.pistolLifetime = 2.5
+--Recoil
+_G.recoil = true
+_G.recoilMultiplier = 1
+--Gunshot Sounds
+_G.sniperSound = 680140087
+_G.automaticSound = 1583819337
+_G.pistolSound = 2834289304
+--Fisticuffs
+_G.fisticuffs = false
+_G.maxParticalRate = 150
+_G.armEffectColor = {100, 0, 0}
+_G.particalEffectColor = {100, 0, 0}
+
+--[--Velocity--]-- (Settings To Change Your Velocity)
+_G.bodyVelocity = {-17.7, 0, -17.7} 
+_G.flingPartVelocity = {-17.7, 0, -17.7}
+_G.hatVelocity = {-17.7, 0, -17.7}
+_G.toolVelocity = {-17.7, 0, -17.7}
+_G.advanceVelocity = false --(BUGGY - WILL BREAK THE SCRIPT A LITTLE - KEEP FALSE)
+_G.advanceVelocityMultiply = 100 --(BUGGY)
+--Velocity is not recommended to be (-17.7, 0, -17.7) in R15 since body parts often fall in R15.
+--[[--------------------------]]--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ONEReverseCard/My-Scripts/main/Netless%20CLOVR%20Gun%20Mod.txt"))()
